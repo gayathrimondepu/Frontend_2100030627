@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 1 - Dynamic Form Generation</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <style>
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        body {
+    font-family: Arial, sans-serif; 
+}
+
+h2 {
+    text-align: center;
+    font-weight: bold; 
+    font-size: 24px;
+}
+
+#form-container {
+    text-align: center; 
+}
+
+button {
+    background-color: #ffcc99; 
+    color: white;
+    border: none;
+    border-radius: 15px; 
+    padding: 10px 20px;
+    margin: 10px; 
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ffa64d; 
+}
+
+#add-text, #add-checkbox, #add-radio {
+    font-family: Arial, sans-serif; 
+    font-size: 16px; 
+}
+
+.form-group input[type="text"],
+.form-group input[type="checkbox"],
+.form-group input[type="radio"] {
+    width: 300px; 
+    padding: 10px;
+    border-radius: 10px; 
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+}
+
+.form-group button {
+    background-color: #ffcc99;
+    color: white; 
+    border: none;
+    border-radius: 10px; 
+    padding: 10px 20px;
+    margin: 10px; 
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: #ffa64d; 
+}
+body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa; 
+            padding: 20px;
+            margin: 0;
+        }
+
+       
+        .container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        
+        h1, h3 {
+            color: #007bff; 
+            margin: 0;
+        }
+
+        .menu {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .menu-button {
+            background-color: #007bff; 
+            color: #fff; 
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-button:hover {
+            background-color: #0056b3;
+        }
+        footer {
+    background-color: #f8f9fa;
+    text-align: center; 
+    padding: 20px;
+    position: fixed;
+    width: 100%; 
+    bottom: 0; 
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>JS - TASK</h1>
+      
+    </div>
+
+    <div class="menu">
+        <a href="task1.html" class="menu-button">TASK 1 - Dynamic Form Generation</a>
+        <a href="../task2/task2.html" class="menu-button">TASK 2 - Interactive Data Table</a>
+        <a href="../task3/task3.html" class="menu-button">TASK 3 - Extraction of Words</a>
+        <a href="../home.html" class="menu-button">Home</a> 
+    </div>
+    <br><br>
+    <h2> TASK -1 Dynamic Form Generation</h2>
+    <div id="form-container"></div>
+    <button id="add-text">Add Text Input</button>
+    <button id="add-checkbox">Add Checkbox</button>
+    <button id="add-radio">Add Radio Button</button>
+    <br><br>
+    <footer>
+        <h3>Mondepu Gayathri - 2100030627</h3>
+    </footer>
+    <script src="task1.js"></script>
+</body>
+</html>

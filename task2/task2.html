@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS- TASK</title>
+    <style>
+
+        body {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: Arial, sans-serif;
+            background-color: #f8f9fa;
+            padding: 20px;
+            margin: 0;
+        }
+
+   
+        .container {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+     
+        h1, h3 {
+            color: #007bff; 
+            margin: 0;
+        }
+
+      
+        .menu {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .menu-button {
+            background-color: #007bff; 
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 0 10px;
+            cursor: pointer;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+        }
+
+        .menu-button:hover {
+            background-color: #0056b3;
+        }
+        table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+#prev-page, #next-page {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#prev-page:hover, #next-page:hover {
+    background-color: #0056b3;
+}
+
+        button {
+            background-color: black;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            padding: 10px 20px;
+            margin: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: darkgray;
+        }
+
+        #filter {
+            width: 300px;
+            padding: 10px;
+            border-radius: 10px;
+            border: 1px solid #ccc;
+            font-size: 16px;
+            box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+
+        #filter:focus {
+            outline: none;
+            border-color: #007BFF;
+            box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+        }
+        .form-group {
+    margin-bottom: 10px;
+    }
+    
+
+
+.form-group input[type="text"],
+.form-group input[type="checkbox"],
+.form-group input[type="radio"] {
+    width: 300px; 
+    padding: 10px;
+    border-radius: 5px; 
+    border: 1px solid #ccc;
+    font-size: 16px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-group button {
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 5px; 
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.form-group button:hover {
+    background-color: darkgray;
+}
+#paragraph {
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    justify-content: center; 
+}
+
+.text-container {
+    text-align: justify; 
+}
+
+
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>JS - TASK</h1>
+
+    </div>
+
+    <div class="menu">
+        <a href="../task1/task1.html" class="menu-button">TASK 1 - Dynamic Form Generation</a>
+        <a href="task2.html" class="menu-button">TASK 2 - Interactive Data Table</a>
+        <a href="../task3/task3.html" class="menu-button">TASK 3 - Extraction of Words</a>
+        <a href="../home.html" class="menu-button">Home</a> 
+    </div>
+    <br><br>
+    <h2> TASK 2- Interactive Data Table</h2>
+    <input type="text" id="filter" placeholder="Filter...">
+    <table id="data-table">
+        <thead>
+            <tr>
+                <th data-column="name" data-order="desc">Name</th>
+                <th data-column="age" data-order="desc">Age</th>
+                <th data-column="location" data-order="desc">Location</th>
+                <th data-column="email" data-order="desc">Email</th>
+            </tr>
+        </thead>
+        <tbody>
+ 
+        </tbody>
+    </table>
+    <div>
+        <button id="prev-page">Previous</button>
+        <span id="page-info"></span>
+        <button id="next-page">Next</button>
+    </div>
+    <br><br>
+    <footer>
+        <h3>Mondepu Gayathri - 2100030627</h3>
+    </footer>
+    <script src="task2.js"></script>
+</body>
+</html>
